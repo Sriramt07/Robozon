@@ -1,0 +1,174 @@
+body{
+    font-family: "Montserrat";
+}
+#title{
+    background-color: #26EFDA;
+}
+.container-fluid{
+    padding: 3% 15%;
+    background-color: #26EFDA;
+}
+h1{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+
+/* Navbar */
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-left: 0;
+    
+}
+.nav-item{
+    margin: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+/* Button */
+
+.download-btn{
+    margin: 5% 3% 0;
+    
+}
+
+/* Features */
+#features{
+    padding: 7% 15%;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.feat{
+    font-family: "Montserrat";
+    font-weight: 600;
+    padding: 6% 0 0 0;
+}
+.icon{
+    color: #08ae9d;
+}
+
+.icon:hover{
+    color: #26EFDA;
+}
+
+/* Testmonials */
+
+#testimonials{
+    background-color: #26EFDA;
+    text-align: center;
+}
+
+.testmonial-image{
+    width: 20%;
+    border-radius: 100%;
+
+    
+}
+
+.testi{
+    color: white;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#press{
+    background-color:#26EFDA;
+    text-align: center;
+   
+}
+
+.press-image{
+    width: 15%;
+    margin: 20px 20px 80px;
+}
+
+.carousel-item{
+    padding: 7% 15% 7% 15%;
+    max-height: 12%;
+        
+}
+
+.carousel-inner{
+    
+    height:600px;
+
+}
+
+@media (max-width:850px){
+    
+    .testi{
+        font-size: 1rem;
+    }
+
+    .carousel-inner{
+      height: 250px;
+    }
+}
+
+/* Pricing */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.robo-images{
+    width: 50%;
+    border-radius: 100%;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+/* Footer */
+
+#cta{
+    background-color: #26EFDA;
+    text-align: center;
+    padding: 7% 12% 3% 12%;
+    color: white;
+    
+}
+
+.footer-btn{
+    margin: 5% 15px 0;
+}
+
+
+#footer{
+    background-color: white;
+    text-align: center;
+    padding: 3% 12% 3% 12%;
+    
+}
+
+.footer-text{
+    font-family: "Montserrat";
+    font-weight: 600;
+
+}
+.footer-icons{
+    color: black;
+    margin: 2% 15px 2%;
+}
+
+.footer-icons:hover{
+    color: #26EFDA;
+}
